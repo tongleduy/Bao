@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+	width: 100%;
+	height: auto;
+}
+.top
+{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	position: relative;
+}
+.topbox
+{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 34%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}
+.first_tittle
+{
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	font-family:"SVN-Bellwethers";
+	font-size: 30px;
+}
+.Menu
+{
+	width: 800px;
+	height: 100px;
+	font-family: "Roboto Slab";
+	margin: 0 auto;
+
+}
+ul
+{
+	list-style: none;
+	margin: 0 auto;
+}
+ul li
+{
+	padding: 50px;
+	float: left;
+	position: relative;
+}
+ul li a
+{
+	text-decoration: none;
+	color: black;
+
+}
+ul li ul li:hover
+{
+	border-bottom: 2px solid rgba(0,0,0,1.00);
+}
+ul li ul
+{
+	top: 80px;
+	position: absolute;
+	left: 1px;
+	visibility: hidden;
+}
+ul li ul li
+{
+	background-color:white;
+	width: 180px;
+	height: auto;
+	font-size: 15px;
+	padding: 10px;
+}
+ul li:hover ul
+{
+	visibility: visible;	
+}
+.our_story
+{
+	width: 100%;
+	height: auto;
+	margin-top: 550px;
+	padding: 10px;
+	font-family: "Roboto Slab";
+	background-color: white;
+}
+.textboxstory
+{
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+}
+.photography
+{
+	width: 100%;
+	height: auto;
+	font-family: "Roboto Slab";
+	text-align: center;
+	position: relative;
+}
+.photo_text_box
+{
+		width: 800px;
+	height: 200px;
+	margin: 0 auto;
+	position: absolute;
+	 top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+}
+.text_photo
+{
+	width: 300px;
+	height: 100px;
+	border: 2px solid white;
+	font-size: 30px;
+	color: white;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+.photo_text_box a
+{
+	text-decoration: none;
+}
+.photo_text_box a:hover div
+{
+	background-color:rgba(36,36,36,1.00);
+	margin: auto;
+}
+.wedding
+{
+	width: 100%;
+	height: 850px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: "Roboto Slab";
+	color: black;
+}
+.wedding_pic_box
+{
+	width: 75%;
+	height: 680px;
+	margin: 50px auto;
+}
+.wedding_pic
+{
+	width: 30%;
+	height: 250px;
+	float: left;
+	background-color: mediumvioletred;
+	margin: 30px 14px;
+}
+
+.information
+{
+	width: 100%;
+	height: 240px;
+	font-family: "Roboto Slab";
+	background-color:rgba(119,119,119,1.00);
+}
+.contact_box
+{
+	width: 70%;
+	height: 200px;
+	margin: 0 auto;
+}
+.contact
+{
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+.social
+{
+	width: 105px;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
